@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Header from './sections/Header';
 
 const App = () => {
   return (
-    <div>
-      <h1 className='text-3xl font-bold underline'>Elevana</h1>
-    </div>
-  )
-}
+    <main>
+      <Header />
+    </main>
+  );
+};
 
-export default App
+export default App;
