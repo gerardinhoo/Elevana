@@ -1,6 +1,6 @@
 import React from 'react';
 import { Element } from 'react-scroll';
-import { features, details } from '../constants/index.js';
+import { features, details } from '../constants/index.jsx';
 import Button from '../components/Button.jsx';
 
 const Features = () => {
